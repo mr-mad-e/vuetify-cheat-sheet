@@ -27,6 +27,118 @@
 - `flex`
 - `inline-flex`
 
+### Flex direction
+
+- `.flex-{value}`
+- `.flex-{breakpoint}-{value}`
+
+> value
+
+- `row`
+- `row-reverse`
+- `column`
+- `column-reverse`
+
+### Flex justify
+
+- `.justify-{value}`
+- `.justify-{breakpoint}-{value}`
+
+> value
+
+- `start`
+- `end`
+- `center`
+- `space-between`
+- `space-around`
+
+### Flex align
+
+- `.align-{value}`
+- `.align-{breakpoint}-{value}`
+
+> value
+
+- `start`
+- `end`
+- `center`
+- `baseline`
+- `stretch`
+
+### Flex align self
+
+- `.align-self-{value}`
+- `.align-self-{breakpoint}-{value}`
+
+> value
+
+- `start`
+- `end`
+- `center`
+- `baseline`
+- `stretch`/`auto`
+
+### Flex wrap
+
+- `.flex-{value}`
+- `.flex-{breakpoint}-{value}`
+
+> value
+
+- `nowrap`
+- `wrap`
+- `wrap-reverse`
+
+### Flex order
+
+- `.order-{value}`
+- `.order-{breakpoint}-{value}`
+
+> value
+
+- `first`
+- `last`
+- `0`
+- `1`
+- `2`
+- `3`
+- `4`
+- `5`
+- `6`
+- `7`
+- `8`
+- `9`
+- `10`
+- `11`
+- `12`
+
+### Flex align content
+
+- `.align-content-{value}`
+- `.align-{breakpoint}-content-{value}`
+
+> value
+
+- `start`
+- `end`
+- `center`
+- `space-between`
+- `space-around`/`stretch`
+
+### Flex grow and shrink
+
+- `flex-{breakpoint}-{condition}-{state}`
+
+> condition
+
+- `grow`
+- `shrink`
+
+> state
+
+- `0`
+- `1`
+
 ### Float
 
 - `.float-{value}`
@@ -155,9 +267,9 @@
 
 ### Text opacity
 
-- `.text--primary` &nbsp;&nbsp; - **87%**
+- `.text--primary` &nbsp;&nbsp;&nbsp;&nbsp; - **87%**
 - `.text--secondary` - **60%**
-- `.text--disabled` &nbsp; - **37%**
+- `.text--disabled` &nbsp;&nbsp; - **37%**
 
 ### Font weights
 
