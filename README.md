@@ -61,39 +61,39 @@
 
 > size
 
-- `0` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 0
-- `1` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 4px
-- `2` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 8px
-- `3` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 12px
-- `4` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 16px
-- `5` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 20px
-- `6` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 24px
-- `7` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 28px
-- `8` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 32px
-- `9` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 36px
-- `10` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 40px
-- `11` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 44px
-- `12` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 48px
-- `13` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 52px
-- `14` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 56px
-- `15` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 60px
-- `16` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 64px
-- `n1` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` to -4px
-- `n2` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` to -8px
-- `n3` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` to -12px
-- `n4` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` to -16px
-- `n5` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` to -20px
-- `n6` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` to -24px
-- `n7` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` to -28px
-- `n8` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` to -32px
-- `n9` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - sets `margin` to -36px
-- `n10` &nbsp;&nbsp; - sets `margin` to -40px
-- `n11` &nbsp;&nbsp; - sets `margin` to -44px
-- `n12` &nbsp;&nbsp; - sets `margin` to -48px
-- `n13` &nbsp;&nbsp; - sets `margin` to -52px
-- `n14` &nbsp;&nbsp; - sets `margin` to -56px
-- `n15` &nbsp;&nbsp; - sets `margin` to -60px
-- `n16` &nbsp;&nbsp; - sets `margin` to -64px
+- `0` &nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 0
+- `1` &nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 4px
+- `2` &nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 8px
+- `3` &nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 12px
+- `4` &nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 16px
+- `5` &nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 20px
+- `6` &nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 24px
+- `7` &nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 28px
+- `8` &nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 32px
+- `9` &nbsp;&nbsp;&nbsp; - sets `margin` or `padding` to 36px
+- `10` &nbsp;&nbsp; - sets `margin` or `padding` to 40px
+- `11` &nbsp;&nbsp; - sets `margin` or `padding` to 44px
+- `12` &nbsp;&nbsp; - sets `margin` or `padding` to 48px
+- `13` &nbsp;&nbsp; - sets `margin` or `padding` to 52px
+- `14` &nbsp;&nbsp; - sets `margin` or `padding` to 56px
+- `15` &nbsp;&nbsp; - sets `margin` or `padding` to 60px
+- `16` &nbsp;&nbsp; - sets `margin` or `padding` to 64px
+- `n1` &nbsp;&nbsp; - sets `margin` to -4px
+- `n2` &nbsp;&nbsp; - sets `margin` to -8px
+- `n3` &nbsp;&nbsp; - sets `margin` to -12px
+- `n4` &nbsp;&nbsp; - sets `margin` to -16px
+- `n5` &nbsp;&nbsp; - sets `margin` to -20px
+- `n6` &nbsp;&nbsp; - sets `margin` to -24px
+- `n7` &nbsp;&nbsp; - sets `margin` to -28px
+- `n8` &nbsp;&nbsp; - sets `margin` to -32px
+- `n9` &nbsp;&nbsp; - sets `margin` to -36px
+- `n10` &nbsp; - sets `margin` to -40px
+- `n11` &nbsp; - sets `margin` to -44px
+- `n12` &nbsp; - sets `margin` to -48px
+- `n13` &nbsp; - sets `margin` to -52px
+- `n14` &nbsp; - sets `margin` to -56px
+- `n15` &nbsp; - sets `margin` to -60px
+- `n16` &nbsp; - sets `margin` to -64px
 - `auto` - sets `margin` to auto
 
 ### Typography
@@ -130,14 +130,10 @@
 
 ### Text decoration
 
-- `text-decoration-{value}`
-
-> value
-
-- `none`
-- `overline`
-- `underline`
-- `line-through`
+- `text-decoration-none`
+- `text-decoration-overline`
+- `text-decoration-underline`
+- `text-decoration-line-through`
 
 ### Text wrapping and overflow
 
