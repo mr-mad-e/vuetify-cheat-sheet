@@ -171,9 +171,17 @@
 - `e` - applies the spacing for
   - `margin-right`/`padding-right` (in LTR mode) and
   - `margin-left`/`padding-left` (in RTL mode)
-- `x` - applies the spacing for both _-left and _-right
-- `y` - applies the spacing for both _-top and _-bottom
-- `a` - applies the spacing for the property in all directions
+- `x` - applies the spacing for
+  - `margin-left`/`padding-left` and
+  - `margin-right`/`padding-right`
+- `y` - applies the spacing for
+  - `margin-top`/`padding-top` and
+  - `margin-bottom`/`padding-bottom`
+- `a` - applies the spacing for
+  - `margin-left`/`padding-left` and
+  - `margin-right`/`padding-right` and
+  - `margin-top`/`padding-top` and
+  - `margin-bottom`/`padding-bottom`
 
 > size
 
@@ -240,9 +248,9 @@
 
 > value
 
-- left
-- center
-- right
+- `left`
+- `center`
+- `right`
 
 ### Text decoration
 
