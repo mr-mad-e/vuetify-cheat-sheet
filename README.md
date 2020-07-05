@@ -53,8 +53,12 @@
 - `b` - applies the spacing for `margin-bottom` and `padding-bottom`
 - `l` - applies the spacing for `margin-left` and `padding-left`
 - `r` - applies the spacing for `margin-right` and `padding-right`
-- `s` - applies the spacing for `margin-left`/`padding-left` (in LTR mode) and `margin-right`/`padding-right` (in RTL mode)
-- `e` - applies the spacing for `margin-right`/`padding-right` (in LTR mode) and `margin-left`/`padding-left` (in RTL mode)
+- `s` - applies the spacing for
+  - `margin-left`/`padding-left` (in LTR mode) and
+  - `margin-right`/`padding-right` (in RTL mode)
+- `e` - applies the spacing for
+  - `margin-right`/`padding-right` (in LTR mode) and
+  - `margin-left`/`padding-left` (in RTL mode)
 - `x` - applies the spacing for both _-left and _-right
 - `y` - applies the spacing for both _-top and _-bottom
 - `a` - applies the spacing for the property in all directions
@@ -103,12 +107,12 @@
 
 > value
 
-- `h1` - font-size: 6rem; font-weight: 300;
-- `h2` - font-size: 3.75rem; font-weight: 300;
-- `h3` - font-size: 3rem; font-weight: 400;
-- `h4` - font-size: 2.125rem; font-weight: 400;
-- `h5` - font-size: 1.5rem; font-weight: 400;
-- `h6` - font-size: 1.25rem; font-weight: 500;
+- `h1` -> `{ font-size: 6rem; font-weight: 300; }`
+- `h2` -> `{ font-size: 3.75rem; font-weight: 300; }`
+- `h3` -> `{ font-size: 3rem; font-weight: 400; }`
+- `h4` -> `{ font-size: 2.125rem; font-weight: 400; }`
+- `h5` -> `{ font-size: 1.5rem; font-weight: 400; }`
+- `h6` -> `{ font-size: 1.25rem; font-weight: 500; }`
 - `subtitle-1`
 - `subtitle-2`
 - `body-1`
@@ -137,11 +141,29 @@
 
 ### Text wrapping and overflow
 
-- `.text-no-wrap` - white-space:nowrap;
-- `.text-truncate` - white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+- `.text-wrap` &nbsp;&nbsp;&nbsp;&nbsp; -> `{ white-space: nowrap }`
+- `.text-no-wrap` &nbsp; -> `{ white-space: nowrap; }`
+- `.text-truncate` -> `{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }`
+- `.text-break` &nbsp;&nbsp;&nbsp; -> `{ overflow-wrap: break-word; word-break: break-word; }`
 
 ### Text transform
 
+- `.text-none`
 - `.text-lowercase`
 - `.text-uppercase`
 - `.text-capitalize`
+
+### Text opacity
+
+- `.text--primary` &nbsp;&nbsp; - **87%**
+- `.text--secondary` - **60%**
+- `.text--disabled` &nbsp; - **37%**
+
+### Font weights
+
+- `.font-weight-thin` &nbsp;&nbsp;&nbsp; - **100**
+- `.font-weight-light` &nbsp;&nbsp; - **300**
+- `.font-weight-regular` - **400**
+- `.font-weight-medium` &nbsp; - **500**
+- `.font-weight-bold` &nbsp;&nbsp;&nbsp; - **700**
+- `.font-weight-black` &nbsp;&nbsp; - **900**
